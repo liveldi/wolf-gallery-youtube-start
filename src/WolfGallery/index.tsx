@@ -5,7 +5,7 @@ import { PreviewGallery } from './PreviewGallery';
 import { TransitionPhoto } from './TransitionPhoto';
 
 interface WolfGalleryProps {
-    photos: any[];
+    photos: Photo[];
 }
 
 export const WolfGallery: React.FC<WolfGalleryProps> = ({}) => {
